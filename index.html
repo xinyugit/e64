@@ -1,1 +1,458 @@
-<html> <head> <title>E64易语言插件-主页</title> <meta http-equiv="content-type" content="text/html;charset=utf-8"> <meta name="renderer" content="webkit"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> </head> <body style="margin: 0px;padding: 0px;height: 100%;overflow-y: hidden;"> <iframe src="http://118.25.76.237/site/e64/" id="iframe" style="width:100%;height: 100%;" frameborder="no" border="0" scrolling="yes" allowtransparency="yes" allowfullscreen="true" allowtransparency="true"></iframe> <script> var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?1850f5300a2b71edfb9b2b0aadd442b2"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> </body> </html>
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E64易语言插件-主页</title>
+    <meta name="description" content="一个可编译为原生64位的易语言插件">
+    <meta name="keywords" content="64位易语言、易语言64">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="layui/css/layui.css" media="all">
+
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <style>
+        @media screen and (max-width: 800px) {
+            .video {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <nav class="navbar probootstrap-megamenu navbar-default probootstrap-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="index.html" title="E64易语言插件">E64插件</a>
+            </div>
+
+            <div id="navbar-collapse" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">主页</a></li>
+                    <li><a target="_blank" href="http://doc.e64.ink/e64-2020">文档</a></li>
+                    <!--
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle">文档</a>
+
+              <ul class="dropdown-menu">
+                <li><a href="#">视频教程</a></li>
+                <li><a href="doc.html">文档教程</a></li>
+              </ul>
+            </li>
+			-->
+                    <li><a href="faq.html">问答</a></li>
+                    <li><a href="about.html">关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="probootstrap-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center probootstrap-hero-text pb0 probootstrap-animate" data-animate-effect="fadeIn">
+
+
+
+                    <h1>一个可编译为64位的易语言插件</h1>
+                    <p>借助C编译器高效实现一个源码编译为32、64两份可执行文件包含EXE、DLL、SYS、ELF、等。</p>
+                    <br/>
+                    <p>
+                        <a target="_blank" href="http://doc.e64.ink/e64-2020" class="btn btn-primary btn-lg" role="button">查看文档</a>
+
+                        <a href="javascript:onbusy();" class="btn btn-primary btn-ghost btn-lg" role="button">立即获取</a>
+                    </p>
+                    <!-- <p><a href="#"><i class="icon-play2"></i> Watch the video</a></p> -->
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="row text-center probootstrap-hero-text pb0 probootstrap-animate" data-animate-effect="fadeIn" style="padding-top: 40px; ">
+
+                <div id="main2">
+                    <p class="top_title" style="padding: 10px;">易语言如何编译一个64位程序</p>
+                    <div class="e64viode">
+                        <video class="video" poster="video/startpic.png" width="800" height="auto" controls preload>
+                             <source src="http://118.25.76.237/site/e64/video/mv1.mp4" media="only screen and (min-device-width: 568px)"></source>
+                             
+                         </video>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+            <div class="row probootstrap-feature-showcase ">
+
+                <!-- END row -->
+                <div class="row ">
+                    <div class="col-md-7 col-md-push-5 probootstrap-animate " data-animate-effect="fadeInRight ">
+
+                        <div class="owl-carousel owl-carousel-fullwidth border-rounded ">
+                            <div class="item ">
+                                <img src="img/01.png " alt="Free HTML5 Bootstrap Template by GetTemplates.co ">
+                            </div>
+                            <div class="item ">
+                                <img src="img/02.png " alt="Free HTML5 Bootstrap Template by GetTemplates.co ">
+                            </div>
+                            <div class="item ">
+                                <img src="img/03.png " alt="Free HTML5 Bootstrap Template by GetTemplates.co ">
+                            </div>
+                            <div class="item ">
+                                <img src="img/04.png " alt="Free HTML5 Bootstrap Template by GetTemplates.co ">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-5 col-md-pull-7 ">
+                        <div class="service left-icon probootstrap-animate " data-animate-effect="fadeInLeft ">
+                            <div class="icon "><i class="icon-mobile3 "></i></div>
+                            <div class="text ">
+                                <h3>跨平台支持</h3>
+                                <p>支持windows、32、64,Linux适配中</p>
+                            </div>
+                        </div>
+                        <div class="service left-icon probootstrap-animate " data-animate-effect="fadeInLeft ">
+                            <div class="icon "><i class="icon-presentation "></i></div>
+                            <div class="text ">
+                                <h3>提升效率</h3>
+                                <p>借助c语言的性能显著提高运行效率</p>
+                            </div>
+                        </div>
+                        <div class="service left-icon probootstrap-animate " data-animate-effect="fadeInLeft ">
+                            <div class="icon "><i class="icon-circle-compass "></i></div>
+                            <div class="text ">
+                                <h3>减少误报</h3>
+                                <p>原生C程序彻底解决杀软误报问题</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="probootstrap-section probootstrap-bg-white probootstrap-zindex-above-showcase ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate " data-animate-effect="fadeIn ">
+                    <h2>功能与优势</h2>
+                    <p class="lead ">经多年研究与信念支持仅以此插件解决易语言部分先天不足，解决日益流行的64平台问题。</p>
+                </div>
+            </div>
+            <!-- END row -->
+            <div class="row probootstrap-gutter60 ">
+                <div class="col-md-4 probootstrap-animate " data-animate-effect="fadeInLeft ">
+                    <div class="service text-center ">
+                        <div class="icon "><i class="icon-mobile3 "></i></div>
+                        <div class="text ">
+                            <h3>跨平台支持</h3>
+                            <p>支持一个代码编译位32、64两份可执行文件，支持Window平台PE可执行格式、支持Linux平台ELF可执行格式。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 probootstrap-animate " data-animate-effect="fadeIn ">
+                    <div class="service text-center ">
+                        <div class="icon "><i class="icon-presentation "></i></div>
+                        <div class="text ">
+                            <h3>效率提升</h3>
+                            <p>借助c编译器实现更高效更小巧的可执行代码.运行速度得到显著提升，解决多年来易语言编译优化不足问题。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 probootstrap-animate " data-animate-effect="fadeInRight ">
+                    <div class="service text-center ">
+                        <div class="icon "><i class="icon-circle-compass "></i></div>
+                        <div class="text ">
+                            <h3>底层支持</h3>
+                            <p>E64专为支持底层支持而开发，支持开发底层内核驱动程序，原生内联汇编，更自由与操作底层交互。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 probootstrap-animate " data-animate-effect="fadeInLeft ">
+                    <div class="service text-center ">
+                        <div class="icon "><i class="icon-lightbulb "></i></div>
+                        <div class="text ">
+                            <h3>减少报毒</h3>
+                            <p>易语言多年来一直饱受被杀软报毒的问题，此插件是使用c编译器编译的可执行文件、可减少程序被误报的几率。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 probootstrap-animate ">
+                    <div class="service text-center ">
+                        <div class="icon "><i class="icon-magnifying-glass2 "></i></div>
+                        <div class="text ">
+                            <h3>更多生态</h3>
+                            <p>c语言生态更多，可调用主流c库、融入c语言生态环境，使用此插件后代码风格更贴近c语言对学习c语言可以稳步过渡。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 probootstrap-animate " data-animate-effect="fadeInRight ">
+                    <div class="service text-center ">
+                        <div class="icon "><i class="icon-browser2 "></i></div>
+                        <div class="text ">
+                            <h3>简单易学</h3>
+                            <p>对于熟悉易语言常规编程的用户(熟悉API、指针)可以快速切换进入E64模式，仅需要简单的学习下E64的规范以及跨平台注意事项即可。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="probootstrap-section probootstrap-bg-white probootstrap-zindex-above-showcase ">
+        <div class="container ">
+
+
+            <div class="row ">
+                <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate " data-animate-effect="fadeIn ">
+                    <h2>扩展功能</h2>
+                    <p class="lead ">对于易语言的一些功能扩展支持更多底层操作。</p>
+                </div>
+            </div>
+
+            <div class="row probootstrap-feature-showcase " style="margin-top: 0px; ">
+                <div class="col-md-4 col-md-push-8 probootstrap-showcase-nav probootstrap-animate ">
+                    <ul>
+
+                        <li class="active ">
+                            <a href="# ">约定修饰</a>
+                            <p>可修饰函数为 stdcall、cdecl、fastcall,修饰变量为指针[*]。</p>
+                        </li>
+                        <li>
+                            <li>
+                                <a href="# ">无符号类型</a>
+                                <p>支持无符号 字节型、短整数型、整数型、长整数型、的无符号变量定义。</p>
+                            </li>
+                            <li>
+                                <a href="# ">无限参数</a>
+                                <p>支持无限参数（可变参数），可传递栈空间大小内的任意数量参数。</p>
+                            </li>
+                            <li>
+                                <a href="# ">嵌入C代码</a>
+                                <p>解决特殊场景的复杂问题可直接嵌入原生c代码执行。</p>
+                            </li>
+                            <li>
+                                <a href="# ">内联汇编</a>
+                                <p>支持标准INTEL格式的内联汇编操作，支持32、64位汇编语言的内联。</p>
+                            </li>
+                            <li>
+                                <a href="# ">强制转换</a>
+                                <p>强转() 与 cast() 两个功能雷同 用于解决各种数据类型直接的强制转换。</p>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-md-pull-4 probootstrap-animate " style="position: relative; ">
+                    <div class="probootstrap-home-showcase-wrap ">
+                        <div class="probootstrap-home-showcase-inner ">
+                            <div class="probootstrap-chrome ">
+                                <div><span></span><span></span><span></span></div>
+                            </div>
+                            <div class="probootstrap-image-showcase ">
+                                <ul class="probootstrap-images-list ">
+                                    <li class="active "><img src="img/c01.png " alt="Image " class="img-responsive "></li>
+                                    <li><img src="img/c01.png " alt="Image " class="img-responsive "></li>
+                                    <li><img src="img/c02.png " alt="Image " class="img-responsive "></li>
+                                    <li><img src="img/c03.png " alt="Image " class="img-responsive "></li>
+                                    <li><img src="img/c04.png " alt="Image " class="img-responsive "></li>
+                                    <li><img src="img/c05.png " alt="Image " class="img-responsive "></li>
+                                    <li><img src="img/c06.png " alt="Image " class="img-responsive "></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="probootstrap-section probootstrap-border-top probootstrap-bg-white " style="display: none; ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate ">
+                    <h2>易友评价</h2>
+                    <p class="lead ">知名易友对E64插件的评价</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-4 probootstrap-animate " data-animate-effect="fadeIn ">
+                    <div class="probootstrap-testimony-wrap text-center ">
+                        <figure>
+                            <img src="img/person_1.jpg " alt="Free Bootstrap Template by sc.chinaz.com ">
+                        </figure>
+                        <blockquote class="quote ">&ldquo;知名易友对E64插件的评价&rdquo; <cite class="author ">&mdash; 来自易友-无心 <br> </cite></blockquote>
+
+                    </div>
+                </div>
+                <div class="col-md-4 probootstrap-animate " data-animate-effect="fadeIn ">
+                    <div class="probootstrap-testimony-wrap text-center ">
+                        <figure>
+                            <img src="img/person_2.jpg " alt="Free Bootstrap Template by sc.chinaz.com ">
+                        </figure>
+                        <blockquote class="quote ">&ldquo;知名易友对E64插件的评价&rdquo; <cite class="author ">&mdash; 来自易友-无心 <br> </cite></blockquote>
+                    </div>
+                </div>
+                <div class="col-md-4 probootstrap-animate " data-animate-effect="fadeIn ">
+                    <div class="probootstrap-testimony-wrap text-center ">
+                        <figure>
+                            <img src="img/person_3.jpg " alt="Free Bootstrap Template by sc.chinaz.com ">
+                        </figure>
+                        <blockquote class="quote ">&ldquo;知名易友对E64插件的评价&rdquo; <cite class="author ">&mdash; 来自易友-无心 <br> </cite></blockquote>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="probootstrap-cta ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <h2 class="probootstrap-animate " data-animate-effect="fadeInRight ">我们的目标不是星辰大海</h2>
+                    <a target="_blank " href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=ZVBSU1ddUVRWUSUUFEsGCgg " role="button " class="btn btn-primary btn-lg btn-ghost probootstrap-animate " data-animate-effect="fadeInLeft ">联系我</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="probootstrap-footer ">
+        <div class="container ">
+
+
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <div class="row ">
+                        <div class="col-md-4 probootstrap-animate ">
+                            <div class="probootstrap-footer-widget ">
+                                <h3>Links</h3>
+                                <ul>
+                                    <li><a href="# ">友链申请</a></li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 probootstrap-animate ">
+                            <div class="probootstrap-footer-widget ">
+                                <h3>Links</h3>
+                                <ul>
+                                    <li><a href="# ">友链申请</a></li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 probootstrap-animate ">
+                            <div class="probootstrap-footer-widget ">
+                                <h3>Links</h3>
+                                <ul>
+                                    <li><a href="# ">友链申请</a></li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 probootstrap-animate ">
+                    <div class="probootstrap-footer-widget ">
+                        <h3>Mr. LuXun</h3>
+                        <p>有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。此后如竟没有炬火，我便是唯一的光。</p>
+                        <p></p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- END row -->
+            <div class="row ">
+                <div class="col-md-12 copyright probootstrap-animate ">
+                    <p><small>Copyright &copy; 2020-2021 www.e64.ink All rights reserved.</small></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="layui/layui.js " charset="utf-8 "></script>
+
+
+    <script>
+        layui.use(['form', 'layer'], function() {
+
+        })
+
+        function onbusy() {
+
+            layer.confirm('久违了亲爱的易友，组织等你很久了,马上加入组织准备新的征程吧！', {
+                btn: ['立即加入', '不要了']
+            }, function() {
+
+                layer.alert("E64仅作为以语言底层的补充，不适合一般用户，需要有一定C基础，E64开发不易,为付费产品，若有意购买请加入群[615372727]讨论。");
+
+            });
+
+
+        }
+    </script>
+
+    <script src="js/scripts.min.js "></script>
+    <script src="js/custom.min.js "></script>
+
+
+</body>
+
+</html>

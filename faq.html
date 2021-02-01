@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E64易语言插件-主页</title>
+    <meta name="description" content="一个可编译为64位的易语言插件">
+    <meta name="keywords" content="64位易语言、易语言64">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <nav class="navbar probootstrap-megamenu navbar-default probootstrap-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="index.html" title="E64易语言插件">E64插件</a>
+            </div>
+
+            <div id="navbar-collapse" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">主页</a></li>
+                    <li><a target="_blank" href="http://doc.e64.ink/e64-2020">文档</a></li>
+                    <!--
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle">文档</a>
+
+              <ul class="dropdown-menu">
+                <li><a href="#">视频教程</a></li>
+                <li><a href="doc.html">文档教程</a></li>
+              </ul>
+            </li>
+			-->
+                    <li><a href="faq.html">问答</a></li>
+                    <li><a href="about.html">关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="probootstrap-hero probootstrap-xs-hero probootstrap-hero-colored">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 text-left probootstrap-hero-text">
+                    <h1 class="probootstrap-animate" data-animate-effect="fadeIn">常见问题</h1>
+                    <p class="probootstrap-animate" data-animate-effect="fadeIn">一些常见问题的问题和解决方法，请先阅读使用文档。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white probootstrap-zindex-above-showcase">
+        <div class="container">
+            <!-- END row -->
+            <div class="row">
+                <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeIn">
+                    <h3>已有的源码是否可以直接适用于E64编译?</h3>
+                    <p>基本上来说不可以，E64编译插件是使用C编译器编译翻译后的C代码，已有的源代码在规则上可能存在诸多不兼容的代码，详情请参考文档E64支持什么。</p>
+                    <h3>是否可以使用易语言支持库模块?</h3>
+                    <p>目前来说不支持，易语言的模块功能后面考虑支持，但易语言的支持库除核心库的一些命令外其他库未做兼容，支持库是一个大工程需要漫长的移植时间。</p>
+                    <h3>是否可以使用类模块对象?</h3>
+                    <p>目前不支持类模块以及易语言对象类型(COM接口),这个会在下一阶段进行研究处理，在下一阶段进行适配支持。</p>
+                    <h3>是否可以直接使用易语言窗口设计开发程序?</h3>
+                    <p>不可以，易语言的窗口程序无法兼容，GUI程序需要调用系统GUI相关API或第三方界面库完成，无法兼容易语言窗口程序。</p>
+
+                </div>
+                <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeIn">
+                    <h3>编译好的64位驱动为什么不能加载成功?</h3>
+                    <p>64位的驱动需要签名才可以完成加载，测试期间可以开启操作系统测试模式禁止驱动签名，来测试驱动程序，正式发布请购买签名证书。</p>
+                    <h3>数组为什么是从0开始?</h3>
+                    <p>目前来说基本除易语言外的其他的语言数组均采用从0开始的设计，又因E64采用C编译编译，强行修正从1开始将带来许多其他未知问题。</p>
+                    <h3>是否支持调试程序?</h3>
+                    <p>不支持，源代码调试需要于IDE有紧密的配合，易语言目前并未开放调试相关接口，逆向难度大，目前请使用其他调试器调试程序。</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="probootstrap-cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">我们的目标不是星辰大海</h2>
+                    <a href="#" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate" data-animate-effect="fadeInLeft">联系我</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="probootstrap-footer ">
+        <div class="container ">
+
+
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <div class="row ">
+                        <div class="col-md-4 probootstrap-animate ">
+                            <div class="probootstrap-footer-widget ">
+                                <h3>Links</h3>
+                                <ul>
+                                    <li><a href="# ">友链申请</a></li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 probootstrap-animate ">
+                            <div class="probootstrap-footer-widget ">
+                                <h3>Links</h3>
+                                <ul>
+                                    <li><a href="# ">友链申请</a></li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 probootstrap-animate ">
+                            <div class="probootstrap-footer-widget ">
+                                <h3>Links</h3>
+                                <ul>
+                                    <li><a href="# ">友链申请</a></li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 probootstrap-animate ">
+                    <div class="probootstrap-footer-widget ">
+                        <h3>Mr. LuXun</h3>
+                        <p>有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。此后如竟没有炬火，我便是唯一的光。</p>
+                        <p></p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- END row -->
+            <div class="row ">
+                <div class="col-md-12 copyright probootstrap-animate ">
+                    <p><small>Copyright &copy; 2020-2021 www.e64.ink All rights reserved.</small></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+	
+</body>
+
+</html>
